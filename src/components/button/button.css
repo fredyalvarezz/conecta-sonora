@@ -1,0 +1,2 @@
+.btn{border:0;border-radius:99px;padding:8px 18px;font-weight:700;cursor:pointer;background:var(--p3);color:var(--b);text-decoration:none;display:inline-block}
+.btn:hover{filter:brightness(.95)}.btn:disabled{opacity:.5}.btn--primary,.btn--active{background:var(--b);color:#fff}.btn--accent{background:var(--o);color:#fff}.btn--small{padding:5px 12px;font-size:14px}

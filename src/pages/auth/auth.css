@@ -1,0 +1,2 @@
+.auth__panel{background:var(--c);border:1px solid var(--ln);border-radius:18px;padding:28px;max-width:460px;margin:30px auto;box-shadow:0 1px 4px rgba(11,40,90,.07)}
+.auth__title{color:var(--hd)}.auth__demo{margin-top:18px;padding-top:12px;border-top:1px solid var(--ln)}

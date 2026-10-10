@@ -1,0 +1,7 @@
+.hero{position:relative;overflow:hidden;border-radius:22px;margin:18px 0;min-height:330px;padding:36px 30px;display:flex;align-items:center}
+.hero__bg{position:absolute;inset:0;width:100%;height:100%}.hero__content{position:relative;display:flex;flex-direction:column;gap:18px;width:100%}
+.hero__title{font-size:clamp(28px,5vw,46px);color:#08336E;max-width:520px}.hero__text{max-width:480px;margin:0;color:#23405f;font-weight:600}
+.search{display:flex;background:#fff;border:2px solid #08336E;border-radius:99px;padding:4px;max-width:560px}.search__input{flex:1;border:0;background:none;padding:8px 16px;min-width:0;color:#1B2A41}.search__input:focus{outline:0}
+.section-card{border-radius:16px;padding:18px;text-decoration:none;color:var(--t);display:block;border:1px solid var(--ln)}.section-card__title{color:var(--hd)}.section-card__list{margin:6px 0 0;padding-left:18px;color:var(--m);font-size:14px}
+.section-card--courses{background:var(--p1)}.section-card--jobs{background:var(--p2)}.section-card--companies{background:var(--p3)}.section-card--guides{background:var(--p4)}
+@media(max-width:800px){.hero{padding:24px 18px}}

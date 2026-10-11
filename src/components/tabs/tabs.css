@@ -1,1 +1,6 @@
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}
+.tabs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin: 14px 0
+}

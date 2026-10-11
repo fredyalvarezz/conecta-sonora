@@ -1,1 +1,10 @@
-.avatar{width:46px;height:46px;border-radius:12px;color:#fff;font-weight:800;display:grid;place-items:center;flex:none}
+.avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    flex: none
+}

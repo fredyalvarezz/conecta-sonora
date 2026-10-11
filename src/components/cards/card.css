@@ -1,2 +1,19 @@
-.card{background:var(--c);border:1px solid var(--ln);border-radius:16px;padding:18px;box-shadow:0 1px 4px rgba(11,40,90,.07);display:flex;flex-direction:column;gap:8px}
-.card__why{margin:0;padding:6px 10px;border-radius:10px;background:var(--p2);color:var(--t);font-size:14px}
+.card {
+    background: var(--c);
+    border: 1px solid var(--ln);
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 0 1px 4px rgba(11, 40, 90, .07);
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.card__why {
+    margin: 0;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: var(--p2);
+    color: var(--t);
+    font-size: 14px
+}

@@ -1,1 +1,18 @@
-.table{width:100%;border-collapse:collapse;font-size:14px}.table__cell{padding:7px;border-bottom:1px solid var(--ln);text-align:left}.table__select{padding:5px 8px;border:1px solid var(--ln);border-radius:8px;background:var(--bg)}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px
+}
+
+.table__cell {
+    padding: 7px;
+    border-bottom: 1px solid var(--ln);
+    text-align: left
+}
+
+.table__select {
+    padding: 5px 8px;
+    border: 1px solid var(--ln);
+    border-radius: 8px;
+    background: var(--bg)
+}

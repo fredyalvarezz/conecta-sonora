@@ -1,0 +1,7 @@
+/* Estilos BEM del bloque "tabs" (bloque__elemento--modificador). Archivo: components/tabs/tabs.css */
+.tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}

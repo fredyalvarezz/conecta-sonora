@@ -1,0 +1,12 @@
+/* Estilos BEM del bloque "progress" (bloque__elemento--modificador). Archivo: components/progress/progress.css */
+.progress {
+  height: 10px;
+  border-radius: 9px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+.progress__fill {
+  display: block;
+  height: 100%;
+  background: var(--color-violet);
+}

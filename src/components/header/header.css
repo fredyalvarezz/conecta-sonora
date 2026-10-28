@@ -1,0 +1,69 @@
+/* Estilos BEM del bloque "header" (bloque__elemento--modificador). Archivo: components/header/header.css */
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header__user {
+  font-weight: 700;
+  color: var(--color-heading);
+}
+.header__role {
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-bg);
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.logo__mark {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+  font-weight: 800;
+  font-size: 19px;
+}
+.logo__name {
+  color: var(--color-primary);
+}
+.logo__accent {
+  color: var(--color-violet);
+}
+.nav {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.nav__link {
+  padding: 6px 9px;
+  border-radius: 99px;
+  text-decoration: none;
+  color: var(--color-muted);
+  font-weight: 600;
+  font-size: 14.5px;
+}
+.nav__link:hover,
+.nav__link--active {
+  color: var(--color-primary);
+  background: var(--tint-2);
+}

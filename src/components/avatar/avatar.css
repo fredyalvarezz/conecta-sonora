@@ -1,0 +1,11 @@
+/* Estilos BEM del bloque "avatar" (bloque__elemento--modificador). Archivo: components/avatar/avatar.css */
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+  flex: none;
+}

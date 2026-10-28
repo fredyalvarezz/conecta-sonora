@@ -1,0 +1,28 @@
+/* Estilos BEM del bloque "footer" (bloque__elemento--modificador). Archivo: components/footer/footer.css */
+.footer {
+  background: var(--color-primary-dark);
+  color: #fff;
+  padding: 22px 18px;
+  margin-top: 40px;
+}
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.footer__logo {
+  height: 46px;
+  width: auto;
+}
+.footer__slogan {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #d9cffc;
+}
+.footer__note {
+  color: #b8c2dd;
+  font-size: 13px;
+}

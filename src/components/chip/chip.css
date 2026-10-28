@@ -1,0 +1,21 @@
+/* Estilos BEM del bloque "chip" (bloque__elemento--modificador). Archivo: components/chip/chip.css */
+.chip {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 3px 6px 3px 12px;
+  border-radius: 99px;
+  background: var(--tint-3);
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 6px 6px 0;
+}
+.chip__remove {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1;
+}

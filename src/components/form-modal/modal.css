@@ -1,0 +1,19 @@
+/* Estilos BEM del bloque "modal" (bloque__elemento--modificador). Archivo: components/form-modal/modal.css */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 20, 40, 0.6);
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: auto;
+  padding: 24px 12px;
+  z-index: 20;
+}
+.modal__dialog {
+  background: var(--color-surface);
+  border-radius: 18px;
+  max-width: 640px;
+  width: 100%;
+  padding: 24px;
+}

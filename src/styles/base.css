@@ -1,0 +1,151 @@
+/* Estilos BEM del bloque "base" (bloque__elemento--modificador). Archivo: styles/base.css */
+:root {
+  --color-primary: #2c3e66;
+  --color-primary-dark: #1f2d4d;
+  --color-heading: #2c3e66;
+  --color-accent: #6d4fd6;
+  --color-violet: #a78bfa;
+  --color-bg: #f7f7fa;
+  --color-surface: #ffffff;
+  --color-text: #1e2740;
+  --color-muted: #5e6a85;
+  --color-border: #e3e1ee;
+  --color-success: #2e8b63;
+  --color-success-text: #1f7a4d;
+  --tint-1: #f6e7ff;
+  --tint-2: #e8e4ff;
+  --tint-3: #e4e9f5;
+  --tint-4: #f3e3fa;
+  --tint-success: #e0f3ea;
+  --font-main: 'Montserrat', system-ui, sans-serif;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-primary: #5b73b8;
+    --color-primary-dark: #0f1626;
+    --color-heading: #d5ddf7;
+    --color-accent: #8b6cf0;
+    --color-bg: #121a2e;
+    --color-surface: #1b2540;
+    --color-text: #eef0f8;
+    --color-muted: #a4aecb;
+    --color-border: #2b3859;
+    --color-success-text: #7fd9ae;
+    --tint-1: #2d2350;
+    --tint-2: #2a2756;
+    --tint-3: #233253;
+    --tint-4: #2f2250;
+    --tint-success: #1d3a2e;
+  }
+}
+:root[data-theme='dark'] {
+  --color-primary: #5b73b8;
+  --color-primary-dark: #0f1626;
+  --color-heading: #d5ddf7;
+  --color-accent: #8b6cf0;
+  --color-bg: #121a2e;
+  --color-surface: #1b2540;
+  --color-text: #eef0f8;
+  --color-muted: #a4aecb;
+  --color-border: #2b3859;
+  --color-success-text: #7fd9ae;
+  --tint-1: #2d2350;
+  --tint-2: #2a2756;
+  --tint-3: #233253;
+  --tint-4: #2f2250;
+  --tint-success: #1d3a2e;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font: 400 16px/1.5 var(--font-main);
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 0.4em;
+  line-height: 1.2;
+}
+a {
+  color: var(--color-accent);
+}
+button,
+select,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+:focus-visible {
+  outline: 3px solid var(--color-violet);
+  outline-offset: 2px;
+}
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 18px;
+}
+.section {
+  margin: 34px 0;
+}
+.section__title {
+  font-size: 24px;
+  color: var(--color-heading);
+}
+.page-title {
+  color: var(--color-heading);
+}
+.page-title--spaced {
+  margin-top: 24px;
+}
+.grid {
+  display: grid;
+  gap: 14px;
+}
+.grid--4 {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+.grid--cards {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+.split {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 18px;
+}
+@media (max-width: 800px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+}
+.row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.list {
+  padding-left: 20px;
+  margin: 4px 0 12px;
+}
+.u-grow {
+  flex: 1;
+}
+.u-muted {
+  color: var(--color-muted);
+  font-size: 14px;
+}
+.u-scroll-x {
+  overflow-x: auto;
+}

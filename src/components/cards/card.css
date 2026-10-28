@@ -1,0 +1,29 @@
+/* Estilos BEM del bloque "card" (bloque__elemento--modificador). Archivo: components/cards/card.css */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 1px 4px rgba(44, 62, 102, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card__why {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: var(--tint-1);
+  color: var(--color-text);
+  font-size: 14px;
+}
+.card__icon {
+  font-size: 30px;
+}
+.card__tag {
+  align-self: start;
+}
+.card__title {
+  margin: 0;
+  font-size: 17px;
+}

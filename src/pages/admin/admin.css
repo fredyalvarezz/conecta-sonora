@@ -1,0 +1,11 @@
+/* Estilos BEM del bloque "admin" (bloque__elemento--modificador). Archivo: pages/admin/admin.css */
+.admin__head {
+  margin-top: 24px;
+}
+.admin__title {
+  color: var(--color-heading);
+}
+.admin__actions {
+  text-align: right;
+  white-space: nowrap;
+}

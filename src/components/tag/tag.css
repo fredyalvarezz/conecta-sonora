@@ -1,0 +1,19 @@
+/* Estilos BEM del bloque "tag" (bloque__elemento--modificador). Archivo: components/tag/tag.css */
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 99px;
+  background: var(--tint-3);
+  color: var(--color-primary);
+  margin: 0 4px 4px 0;
+}
+.tag--accent {
+  background: var(--tint-2);
+  color: var(--color-accent);
+}
+.tag--success {
+  background: var(--tint-success);
+  color: var(--color-success-text);
+}

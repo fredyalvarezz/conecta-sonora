@@ -1,0 +1,11 @@
+/* Estilos BEM del bloque "empty-state" (bloque__elemento--modificador). Archivo: components/empty-state/empty-state.css */
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  background: var(--color-surface);
+  border: 2px dashed var(--color-border);
+  border-radius: 16px;
+}
+.empty-state--gate {
+  margin-top: 30px;
+}

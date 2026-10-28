@@ -1,0 +1,22 @@
+/* Estilos BEM del bloque "form" (bloque__elemento--modificador). Archivo: components/form-modal/form.css */
+.form__label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.form__control {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 9px 11px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-bg);
+}
+.form__error {
+  color: #c0392b;
+  font-weight: 700;
+  min-height: 1em;
+  margin: 0 0 8px;
+}

@@ -1,0 +1,17 @@
+/* Estilos BEM del bloque "table" (bloque__elemento--modificador). Archivo: components/table/table.css */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.table__cell {
+  padding: 7px;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+.table__select {
+  padding: 5px 8px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg);
+}

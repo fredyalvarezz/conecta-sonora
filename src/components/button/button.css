@@ -1,0 +1,31 @@
+/* Estilos BEM del bloque "button" (bloque__elemento--modificador). Archivo: components/button/button.css */
+.btn {
+  border: 0;
+  border-radius: 99px;
+  padding: 8px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  background: var(--tint-3);
+  color: var(--color-primary);
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover {
+  filter: brightness(0.95);
+}
+.btn:disabled {
+  opacity: 0.5;
+}
+.btn--primary,
+.btn--active {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+.btn--small {
+  padding: 5px 12px;
+  font-size: 14px;
+}
